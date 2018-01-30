@@ -8,7 +8,7 @@ class Shoe
   end
 
   def cobble
-    self.condition = "new"
+     self.condition = "new" #or you can use the instance variable@condition = "new"
     puts "Your shoe is as good as new!"
   end
 
